@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
 	title: 'Classnotes Buddy Documentation',
 	tagline: 'Simplify the way you share notes',
-	url: 'https://classnotes-buddy-docs-v2.techwithanirudh.repl.co',
+	url: 'https://Classnotes-Buddy-Documentation.techwithanirudh.repl.co',
 	baseUrl: '/',
 	onBrokenLinks: 'throw',
 	onBrokenMarkdownLinks: 'warn',

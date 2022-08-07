@@ -1,4 +1,4 @@
-run="npm run serve -- --build --port 8080 --host 0.0.0.0"
+run="npm start"
 entrypoint = "index.js"
 
 hidden = [".config"]
