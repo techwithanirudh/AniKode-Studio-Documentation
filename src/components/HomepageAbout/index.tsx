@@ -15,8 +15,8 @@ const FeatureList: FeatureItem[] = [
 		Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
 		description: (
 			<>
-				Docusaurus was designed from the ground up to be easily installed and
-				used to get your website up and running quickly.
+				Classnotes Buddy was designed from the ground up to be easily installed and
+				used to share notes.
 			</>
 		),
 	},
@@ -73,7 +73,7 @@ export default function HomepageAbout(): JSX.Element {
 				<div className="container">
 					<div className="row">
 						<div className={clsx('col col--6')}>
-							<div className={clsx('col col--6', styles.triggerText)}>
+							<div className={clsx(styles.triggerText)}>
 								<h3>Ready to use?</h3>
 							</div>
 						</div>

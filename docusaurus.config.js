@@ -9,7 +9,7 @@ const config = {
 	title: 'Classnotes Buddy Documentation',
 	tagline: 'Simplify the way you share notes',
 	url: 'https://classnotes-buddy-docs-v2.techwithanirudh.repl.co',
-	baseUrl: '/home/',
+	baseUrl: '/',
 	onBrokenLinks: 'throw',
 	onBrokenMarkdownLinks: 'warn',
 	favicon: 'img/favicon.ico',
@@ -17,7 +17,7 @@ const config = {
 	// GitHub pages deployment config.
 	// If you aren't using GitHub pages, you don't need these.
 	organizationName: 'techwithanirudh', // Usually your GitHub org/user name.
-	projectName: 'classnotes-buddy-docs', // Usually your repo name.
+	projectName: 'Classnotes-Buddy-Documentation', // Usually your repo name.
 
 	// Even if you don't use internalization, you can use this field to set useful
 	// metadata like html lang. For example, if your site is Chinese, you may want
@@ -37,14 +37,14 @@ const config = {
 					// Please change this to your repo.
 					// Remove this to remove the "edit this page" links.
 					editUrl:
-						'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+						'https://github.com/techwithanirudh/Classnotes-Buddy-Documentation/tree/main/docs/',
 				},
 				blog: {
 					showReadingTime: true,
 					// Please change this to your repo.
 					// Remove this to remove the "edit this page" links.
 					editUrl:
-						'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+						'https://github.com/techwithanirudh/Classnotes-Buddy-Documentation/tree/main/blog/',
 				},
 				theme: {
 					customCss: require.resolve('./src/css/custom.css'),
@@ -59,7 +59,7 @@ const config = {
 			navbar: {
 				title: 'Classnotes Buddy Documentation',
 				logo: {
-					alt: 'My Site Logo',
+					alt: 'Classnotes Buddy Logo',
 					src: 'img/logo.svg',
 				},
 				items: [
@@ -71,7 +71,7 @@ const config = {
 					},
 					{ to: '/blog', label: 'Blog', position: 'left' },
 					{
-						href: 'https://github.com/facebook/docusaurus',
+						href: 'https://github.com/techwithanirudh/Classnotes-Buddy-Documentation',
 						label: 'GitHub',
 						position: 'right',
 					},
@@ -102,7 +102,7 @@ const config = {
 							},
 							{
 								label: 'Twitter',
-								href: 'https://twitter.com/docusaurus',
+								href: 'https://twitter.com/AnirudhWith',
 							},
 						],
 					},
@@ -115,7 +115,7 @@ const config = {
 							},
 							{
 								label: 'GitHub',
-								href: 'https://github.com/facebook/docusaurus',
+								href: 'https://github.com/techwithanirudh/Classnotes-Buddy-Documentation',
 							},
 						],
 					},
