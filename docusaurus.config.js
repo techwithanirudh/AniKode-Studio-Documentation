@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-	title: 'Classnotes Buddy',
-	tagline: 'Simplify the way you share notes',
+	title: 'Classnotes Buddy Docs',
+	tagline: 'Learn how to use Classnotes Buddy',
 	url: 'https://Classnotes-Buddy-Services.techwithanirudh.repl.co',
 	baseUrl: '/',
 	onBrokenLinks: 'throw',
@@ -38,6 +38,8 @@ const config = {
 					// Remove this to remove the "edit this page" links.
 					editUrl:
 						'https://github.com/techwithanirudh/Classnotes-Buddy-Documentation/tree/main/docs/',
+					breadcrumbs: true,
+					showLastUpdateTime: false,
 				},
 				blog: {
 					showReadingTime: true,
@@ -67,11 +69,17 @@ const config = {
 	themeConfig:
 		/** @type {import('@docusaurus/preset-classic').ThemeConfig} */
 		({
+			colorMode: {
+				respectPrefersColorScheme: true,
+			},
 			navbar: {
+      			hideOnScroll: true,
 				title: 'Classnotes Buddy',
 				logo: {
 					alt: 'Classnotes Buddy Logo',
 					src: 'img/logo.svg',
+					href: 'https://notes-buddy.techwithanirudh.repl.co/',
+        			target: '_blank'
 				},
 				items: [
 					{
@@ -97,7 +105,7 @@ const config = {
 					{
 						type: 'html',
 						position: 'right',
-						value: `<a href="https://classnotes-buddy.techwithanirudh.repl.co/signup" target="_blank" class="sign-up-button">Sign up</a>`
+						value: `<a href="https://notes-buddy.techwithanirudh.repl.co/signup" target="_blank" class="sign-up-button">Sign up</a>`
 					}
 				],
 			},
