@@ -28,3 +28,116 @@
   --ifm-color-primary-lightest: #ffffff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* Search bar styles */
+
+.navbar__search-input {
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 996px) {
+kbd {
+	display: none;
+}
+}
+
+/* Other styles for search bar */
+.DocSearch-Input {
+  font-size: 1em !important;
+}
+
+.DocSearch-Form {
+  border-radius: 8px !important;
+}
+
+.DocSearch {
+  --docsearch-searchbox-height: 36px !important;
+}
+
+.DocSearch-Logo {
+  opacity: 0;
+  cursor: default;
+  pointer-events: none;
+}
+
+
+@media (max-width: 996px) {
+  .DocSearch-Button-Keys {
+      display: none !important;
+  }
+  .DocSearch-Button-Placeholder {
+    display: none !important;
+  }
+  
+  .DocSearch-Button {
+    height: 22px !important;
+    width: 22px! important;
+    border-radius: 4px !important;
+    padding: 0 4px !important;
+  }
+  
+  .DocSearch-Search-Icon {
+    height: 14px !important;
+    width: 14px !important;
+  }
+  
+  .navbar {
+    height: 42px !important;
+  }
+  
+  .navbar__toggle svg {
+    height: 20px !important;
+    width: 20px !important;
+  }
+  
+  .navbar__logo {
+    height: 1.5rem !important;
+  }
+  
+  header h1 {
+    --ifm-h1-font-size: 2rem !important;
+  }
+  
+  .padding--lg {
+    padding: 1rem !important;
+  }
+
+}
+
+/* Custom Styles */
+
+.sign-up-button {
+  background-color: var(--ifm-color-primary);
+  border: 1px solid var(--ifm-color-primary);
+  border-radius: 4px;
+  text-decoration: none;
+  color: #FCFCFC;
+  transition: 0.1 all ease-in-out;
+  font-weight: 500;
+  width: auto;
+  line-height: 14px;
+  white-space: nowrap;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 8px;
+  text-align: center;
+  outline: 0;
+  
+}
+
+.sign-up-button:hover {
+  background-color: var(--ifm-color-primary-light);
+  border: 1px solid var(--ifm-color-primary-light);
+  text-decoration: none;
+  color: #FCFCFC;
+}
+
+.sign-up-button:focus {
+  outline-offset: 2px;
+  -webkit-box-shadow: 0 0 0 3px var(--ifm-color-primary-lighter);
+  -moz-box-shadow: 0 0 0 3px var(--ifm-color-primary-ligher);
+  box-shadow: 0 0 0 3px var(--ifm-color-primary-lighter);
+}

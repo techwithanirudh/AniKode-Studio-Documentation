@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-	title: 'Classnotes Buddy Documentation',
+	title: 'Classnotes Buddy',
 	tagline: 'Simplify the way you share notes',
-	url: 'https://Classnotes-Buddy-Documentation.techwithanirudh.repl.co',
+	url: 'https://Classnotes-Buddy-Services.techwithanirudh.repl.co',
 	baseUrl: '/',
 	onBrokenLinks: 'throw',
 	onBrokenMarkdownLinks: 'warn',
@@ -53,11 +53,22 @@ const config = {
 		],
 	],
 
+	themes: [
+		[
+			require.resolve("@easyops-cn/docusaurus-search-local"),
+			{
+				// indexBlog: false,
+				docsRouteBasePath: "/",
+				searchResultLimits: 12,
+			},
+		],
+	],
+
 	themeConfig:
 		/** @type {import('@docusaurus/preset-classic').ThemeConfig} */
 		({
 			navbar: {
-				title: 'Classnotes Buddy Documentation',
+				title: 'Classnotes Buddy',
 				logo: {
 					alt: 'Classnotes Buddy Logo',
 					src: 'img/logo.svg',
@@ -70,11 +81,24 @@ const config = {
 						label: 'Tutorial',
 					},
 					{ to: '/blog', label: 'Blog', position: 'left' },
+					// {
+					// 	href: 'https://github.com/techwithanirudh/Classnotes-Buddy-Documentation',
+					// 	label: 'GitHub',
+					// 	position: 'right',
+					// },
 					{
-						href: 'https://github.com/techwithanirudh/Classnotes-Buddy-Documentation',
-						label: 'GitHub',
-						position: 'right',
+						type: 'localeDropdown',
+						position: 'right'
 					},
+					{
+						type: 'search',
+						position: 'right'
+					},
+					{
+						type: 'html',
+						position: 'right',
+						value: `<a href="https://classnotes-buddy.techwithanirudh.repl.co/signup" target="_blank" class="sign-up-button">Sign up</a>`
+					}
 				],
 			},
 			footer: {

@@ -74,15 +74,15 @@ export default function HomepageAbout(): JSX.Element {
 					<div className="row">
 						<div className={clsx('col col--6')}>
 							<div className={clsx(styles.triggerText)}>
-								<h3>Ready to use?</h3>
+								<h3>Read the documentation?</h3>
 							</div>
 						</div>
 						<div className={clsx('col col--6')}>
 							<div className="text--center">
 								<Link
 									className="button button--secondary button--lg"
-									to="/docs/intro">
-									Get started
+									to="https://notes-buddy.techwithanirudh.repl.co/">
+									Get Started With Classnotes Buddy
 								</Link>
 							</div>
 						</div>
