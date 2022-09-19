@@ -6,18 +6,18 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-	title: 'Classnotes Buddy Docs',
-	tagline: 'Learn how to use Classnotes Buddy',
-	url: 'https://Classnotes-Buddy-Services.techwithanirudh.repl.co',
+	title: 'AniKode Studio Docs',
+	tagline: 'Learn how to use AniKode Studio',
+	url: 'https://anikode-studio-services.techwithanirudh.repl.co',
 	baseUrl: '/',
-	onBrokenLinks: 'throw',
+	onBrokenLinks: 'warn',
 	onBrokenMarkdownLinks: 'warn',
 	favicon: 'img/favicon.ico',
 
 	// GitHub pages deployment config.
 	// If you aren't using GitHub pages, you don't need these.
 	organizationName: 'techwithanirudh', // Usually your GitHub org/user name.
-	projectName: 'Classnotes-Buddy-Documentation', // Usually your repo name.
+	projectName: 'AniKode-Studio-Documentation', // Usually your repo name.
 
 	// Even if you don't use internalization, you can use this field to set useful
 	// metadata like html lang. For example, if your site is Chinese, you may want
@@ -33,12 +33,13 @@ const config = {
 			/** @type {import('@docusaurus/preset-classic').Options} */
 			({
 				docs: {
+					routeBasePath: '/', // Serve the docs at the site's root
 					sidebarPath: require.resolve('./sidebars.js'),
 					// Please change this to your repo.
 					// Remove this to remove the "edit this page" links.
 					editUrl:
-						'https://github.com/techwithanirudh/Classnotes-Buddy-Documentation/tree/main/docs/',
-					breadcrumbs: true,
+						'https://github.com/techwithanirudh/AniKode-Studio-Documentation/blob/main',
+					// breadcrumbs: true,
 					showLastUpdateTime: false,
 				},
 				blog: {
@@ -46,7 +47,7 @@ const config = {
 					// Please change this to your repo.
 					// Remove this to remove the "edit this page" links.
 					editUrl:
-						'https://github.com/techwithanirudh/Classnotes-Buddy-Documentation/tree/main/blog/',
+						'https://github.com/techwithanirudh/AniKode-Studio-Documentation/blob/main',
 				},
 				theme: {
 					customCss: require.resolve('./src/css/custom.css'),
@@ -73,13 +74,13 @@ const config = {
 				respectPrefersColorScheme: true,
 			},
 			navbar: {
-      			hideOnScroll: true,
-				title: 'Classnotes Buddy',
+				hideOnScroll: true,
+				title: 'AniKode Studio',
 				logo: {
-					alt: 'Classnotes Buddy Logo',
+					alt: 'AniKode Studio Logo',
 					src: 'img/logo.svg',
-					href: 'https://notes-buddy.techwithanirudh.repl.co/',
-        			target: '_blank'
+					href: '#',
+					target: '_blank'
 				},
 				items: [
 					{
@@ -90,7 +91,7 @@ const config = {
 					},
 					{ to: '/blog', label: 'Blog', position: 'left' },
 					// {
-					// 	href: 'https://github.com/techwithanirudh/Classnotes-Buddy-Documentation',
+					// 	href: 'https://github.com/techwithanirudh/AniKode-Studio-Documentation',
 					// 	label: 'GitHub',
 					// 	position: 'right',
 					// },
@@ -147,7 +148,7 @@ const config = {
 							},
 							{
 								label: 'GitHub',
-								href: 'https://github.com/techwithanirudh/Classnotes-Buddy-Documentation',
+								href: 'https://github.com/techwithanirudh/AniKode-Studio-Documentation',
 							},
 						],
 					},

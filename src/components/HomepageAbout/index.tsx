@@ -15,8 +15,8 @@ const FeatureList: FeatureItem[] = [
 		Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
 		description: (
 			<>
-				Classnotes Buddy was designed from the ground up to be easily installed and
-				used to share notes.
+				AniKode Studio was designed from the ground up to be easily installed and
+				used to create websites.
 			</>
 		),
 	},
@@ -82,7 +82,7 @@ export default function HomepageAbout(): JSX.Element {
 								<Link
 									className="button button--secondary button--lg"
 									to="https://notes-buddy.techwithanirudh.repl.co/">
-									Get Started With Classnotes Buddy
+									Get Started With AniKode Studio
 								</Link>
 							</div>
 						</div>
